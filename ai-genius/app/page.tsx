@@ -1,7 +1,10 @@
+import { Button } from "@/components/ui/button";
+import { DESTRUCTION } from "dns";
 
 
 export default function Home() {
   return(
-    <h1 className="text-6xl">Hello AI-GENIUS</h1>
+    <Button variant="destructive">Click me</Button>
   )
 }
+
