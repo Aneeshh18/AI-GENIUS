@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button";
 import { DESTRUCTION } from "dns";
 
 
-export default function Home() {
+const DashboardPage = () => {
   return(
-    <Button variant="destructive">Click me</Button>
+    <p>Dashboard Page (protected)</p>
   )
 }
-
+export default DashboardPage;
